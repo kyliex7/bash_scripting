@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+declare -A array
+
+array[adam]='smith'
+array[bob]='marley'
+array[carlos]='johnson'
+
+for key in "${!array[@]}"; do
+	value="${array[$key]}"
+	echo "$key:$value"
+done

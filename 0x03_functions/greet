@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+greet() {
+	local name=$1
+	echo "hello, $name"
+
+	return 3
+}
+
+for name in "$@"; do
+	greet $name
+
+	code=$?
+	echo "exitcode: $code"
+done

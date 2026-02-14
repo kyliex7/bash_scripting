@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+array_1=(
+	adam
+	bob
+	carlos 
+)
+
+echo "${array_1[@]}"

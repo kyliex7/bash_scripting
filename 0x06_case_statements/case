@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+name=$1
+
+# if [[ $name == "adam" ]]; then
+# 	echo "hey adam, haven't seen you in a while"
+# elif [[ $name == "bob" ]]; then
+# 	echo "hey bob, where was you in the past week?"
+# elif [[ $name == "carlos" ]]; then
+# 	echo "dude carlos, where have you been?"
+# fi
+
+case "$name" in
+	adam)
+		echo "hey adam, haven't seen you in a while"
+		;;
+	bob)
+		echo "hey bob, wher was you in the past week?"
+		;;
+	carlos)
+		echo "dude carlos, where have you been?"
+		;;
+	*)
+		echo "hey $name, i don't know you"
+		;;
+esac

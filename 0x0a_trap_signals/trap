@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+cleanup_function() {
+	echo "SIGINT detected"
+	echo "exiting the script"
+	echo "cleaning up..."
+}
+
+trap cleanup_function exit
+
+while true; do
+	echo "runnning script"
+	sleep 1
+done
