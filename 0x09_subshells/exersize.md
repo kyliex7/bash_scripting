@@ -6,6 +6,6 @@
         start time: 21:56:54
         task 1 completed after 2 seconds.
         task 2 completed after 3 seconds.
-        end time: 21:56:53
+        end time: 21:56:57
         all tasks finished!
 ```
